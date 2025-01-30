@@ -2,8 +2,10 @@ import ListGroup from "./components/ListGroup";
 import Message from "./Message";
 
 function App() {
+    const items = ["Meskiana", "Oum El Bouaghi", "Alger", "Oran", "Annaba"];
+  
   return (
-    <ListGroup></ListGroup>
+    <ListGroup items = {items} heading = "Cities"></ListGroup>
   );
 }
 
